@@ -24,10 +24,12 @@ const Navbar = () => {
       {/* LEFT SIDE  */}
       <SidebarTrigger/>
 
+
+      {/* HOW TO USE CUSTOM CREATE BUTTON INSTEAD OF USEIN DEFAULT SIDERBARTRIGGER  */}
       {/* <Button variant={'outline'} onClick={toggleSidebar} >
         custom button
       </Button> */}
-      collapse
+     
       {/* RIGHT SIDE  */}
       <div className=" flex items-center gap-4">
         <Link href={"/"}> dashbord</Link>

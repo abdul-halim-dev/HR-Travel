@@ -42,7 +42,7 @@ export default async function RootLayout({ children }) {
         <AppsideBar/>
         <main className="w-full flex gap-1 flex-col ">
           <Navbar/>
-          <div className="px-4 bg-amber-400">   {children} </div>
+          <div className="px-4">   {children} </div>
         </main>
         </SidebarProvider>
         </ThemeProvider>
