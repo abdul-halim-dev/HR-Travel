@@ -15,6 +15,7 @@ const chartConfig = {
   }
 }
 
+ 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },
   { month: "February", desktop: 305, mobile: 200 },
