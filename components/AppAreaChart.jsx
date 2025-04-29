@@ -72,7 +72,7 @@ const AppAreaChart = () => {
                 />
               </linearGradient>
             </defs>
-     <Area
+           <Area
               dataKey="mobile"
               type="natural"
               fill="url(#fillMobile)"

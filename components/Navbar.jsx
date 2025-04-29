@@ -14,11 +14,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
 import { useTheme } from "next-themes";
-import { Sidebar, SidebarTrigger, useSidebar } from "./ui/sidebar";
+import { SidebarTrigger, useSidebar } from "./ui/sidebar";
 
 const Navbar = () => {
     const {Theme, setTheme} = useTheme()
-    const {toggleSidebar} = useSidebar()
+    const {toggleSidebar} = useSidebar() 
   return (
     <nav className="p-4 flex items-center justify-between sticky top-0 bg-background z-20 ">
       {/* LEFT SIDE  */}
